@@ -1,0 +1,16 @@
+{
+  "name": "inbox-agent-ts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Background agent: email/CRM events -> typed knowledge-graph memory -> scheduled follow-ups (strict TypeScript)",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "tsc -p . && node --test dist/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "license": "MIT"
+}
